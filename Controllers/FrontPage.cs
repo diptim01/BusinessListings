@@ -10,6 +10,7 @@ namespace BusinessListings.Controllers
     {
         public IActionResult Index()
         {
+            var x = 5;
             return View();
         }
     }
