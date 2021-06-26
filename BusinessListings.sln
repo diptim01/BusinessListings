@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessListings", "BusinessListings.csproj", "{EF05F7EA-6E43-406C-9846-61F91F9328A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessListings.Web", "BusinessListings.Web.csproj", "{EF05F7EA-6E43-406C-9846-61F91F9328A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Country", "..\Country\Country.csproj", "{CB43185B-A72A-46D5-A8EF-FE27D2767440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryWindowService", "..\Country\CountryWindowService.csproj", "{CB43185B-A72A-46D5-A8EF-FE27D2767440}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationApp2", "..\LocationApp2\LocationApp2.csproj", "{75DED047-FB10-4824-84BD-34D4AC592C0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiManagement", "..\ApiManagement\ApiManagement.csproj", "{09F8333F-544F-41BD-955D-CC2D9D429FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiManagement", "..\ApiManagement\ApiManagement.csproj", "{09F8333F-544F-41BD-955D-CC2D9D429FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessListing.Data", "..\BusinessListing.Data\BusinessListing.Data.csproj", "{FE87D03A-D602-40EB-A2F7-497BA406FAFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessListing.Data", "..\BusinessListing.Data\BusinessListing.Data.csproj", "{FE87D03A-D602-40EB-A2F7-497BA406FAFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessListing.Model", "..\BusinessListing.Model\BusinessListing.Model.csproj", "{0C286316-2F7A-46EA-AA1B-6C33CBA0BEB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessListing.Model", "..\BusinessListing.Model\BusinessListing.Model.csproj", "{0C286316-2F7A-46EA-AA1B-6C33CBA0BEB0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessListing.BL", "..\BusinessListing.BL\BusinessListing.BL.csproj", "{A2AAE8D5-4D40-4C14-9B4F-B5A3EF989EC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessListing.BL", "..\BusinessListing.BL\BusinessListing.BL.csproj", "{A2AAE8D5-4D40-4C14-9B4F-B5A3EF989EC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{CB43185B-A72A-46D5-A8EF-FE27D2767440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB43185B-A72A-46D5-A8EF-FE27D2767440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB43185B-A72A-46D5-A8EF-FE27D2767440}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75DED047-FB10-4824-84BD-34D4AC592C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75DED047-FB10-4824-84BD-34D4AC592C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75DED047-FB10-4824-84BD-34D4AC592C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75DED047-FB10-4824-84BD-34D4AC592C0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09F8333F-544F-41BD-955D-CC2D9D429FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09F8333F-544F-41BD-955D-CC2D9D429FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09F8333F-544F-41BD-955D-CC2D9D429FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU

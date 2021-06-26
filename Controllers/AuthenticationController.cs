@@ -4,13 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BusinessListings.Controllers
+namespace BusinessListings.Web.Controllers
 {
-    public class FrontPage : Controller
+    public class AuthenticationController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Login()
         {
-            //var x = 5;
             return View();
         }
     }

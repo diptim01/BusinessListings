@@ -23,6 +23,7 @@ namespace BusinessListings
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.AddControllersWithViews();
         }
 
@@ -50,7 +51,7 @@ namespace BusinessListings
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=FrontPage}/{action=Index}/{id?}");
             });
         }
     }
