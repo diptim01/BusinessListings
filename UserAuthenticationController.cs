@@ -9,7 +9,7 @@ namespace BusinessListings.Web
 {
     public class UserAuthenticationController : Controller
     {
-        public IActionResult Login(UserLogin userLogin)
+        public IActionResult Login(UserLoginReq userLogin)
         {
             if (ModelState.IsValid)
             {
